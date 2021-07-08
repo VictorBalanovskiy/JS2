@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style-cart.css">
+    <title>cart</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav__left-side">
+                <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+                <a href="catalog.html"><img src="img/search.svg" alt="search"></a>
+            </div>
+            <div class="nav__right-side">
+                <a href="#"><img src="img/burger.svg" alt="burger-menu"></a>
+                <a class="nav__profile" href="registration.html"><img src="img/profile.svg" alt="profile"></a>
+                <a class="nav__cart" href="cart.html"><img src="img/cart.png" alt="cart"></a>
+            </div>
+        </nav>
+    </header>
+    <div class="shopping">
+        <div class="container">
+            <h2>SHOPPING CART</h2>
+        </div>
+    </div>
+    <main>
+        <div class="left-side">
+            <div class="product-item product-item-1">
+                <img src="img/productItem-3.png" alt="item">
+                <div class="description">
+                    <a href="#"><img class="cross" src="img/crossDark.png" alt="cross"></a>
+                    <h2>MANGO PEOPLE T&#65279;-&#65279;SHIRT</h2>
+                    <p>Price: <span class="price">$300</span></p>
+                    <p>Color: <span class="color-size">Red</span></p>
+                    <p>Size: <span class="color-size">Xl</span></p>
+                    <p>Quantity: <input class="Quantity" type="text" placeholder="2"></p>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="img/productItem-2.png" alt="item">
+                <div class="description">
+                    <a href="#"><img class="cross" src="img/crossDark.png" alt="cross"></a>
+                    <h2>MANGO PEOPLE T&#65279;-&#65279;SHIRT</h2>
+                    <p>Price: <span class="price">$300</span></p>
+                    <p>Color: <span class="color-size">Red</span></p>
+                    <p>Size: <span class="color-size">Xl</span></p>
+                    <p>Quantity: <input class="Quantity" type="text" placeholder="2"></p>
+                </div>
+            </div>
+            <div class="main__menu">
+                <a href="#">CLEAR SHOPPING CART</a>
+                <a href="#">CONTINUE SHOPPING</a>
+            </div>
+        </div>
+        <div class="right-side">
+            <form action="#">
+                <h3>SHIPPING ADRESS</h3>
+                <input type="text" placeholder="Country">
+                <input type="text" placeholder="State">
+                <input type="text" placeholder="Postcode / Zip">
+                <button type="submit">GET A QUOTE</button>
+            </form>
+            <div class="checkout">
+                <h4>SUB TOTAL $900</h4>
+                <h2>GRAND TOTAL <span class="price">$900</span></h2>
+                <div class="checkout-line"></div>
+                <a href="#">PROCEED TO CHECKOUT</a>
+            </div>
+        </div>
+    </main>
+    <div class="subscribe">
+        <div class="subscribe__container">
+            <div class="subscribe__review">
+                <img src="img/womanFace.png" alt="face">
+                <p class="subscribe__p">
+                    “Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span class="subscribe__span">a pulvinar
+                        purus condimentum</span>“
+                </p>
+            </div>
+            <div class="subscribe__form">
+                <h3 class="subscribe__h3">
+                    SUBSCRIBE
+                </h3>
+                <p class="form_p">
+                    FOR OUR NEWLETTER AND PROMOTION
+                </p>
+                <form action="#">
+                    <input class="input_text" type="text" placeholder="Enter Your Email">
+                    <button class="button_subscribe" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer__container">
+            <div class="footer__left-side">
+                &copy; 2021 Brand All Rights Reserved.
+            </div>
+            <div class="footer__right-side">
+                <a href="#" class="footer__link-1"></a>
+                <a href="#" class="footer__link-2"></a>
+                <a href="#" class="footer__link-3"></a>
+                <a href="#" class="footer__link-4"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="mainScript.js"></script>
+</body>
+
+</html>
